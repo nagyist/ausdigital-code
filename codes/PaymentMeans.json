@@ -1,0 +1,7 @@
+{"PaymentMeans":[
+	{"Code":"1", "Description":"Instrument not defined"},
+	{"Code":"2", "Automated clearing house credit"},
+	{"Code":"3", "Automated clearing house debit"},
+	{"Code":"n"' "And so on.."}
+	]
+}
