@@ -1,2 +1,2 @@
-# common-semantics
-A repository for common semantics such as code lists.
+# Code List Management
+A repository for UBl code lists as JSON web resources.
