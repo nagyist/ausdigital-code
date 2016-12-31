@@ -45,6 +45,9 @@ Allowed list of code property names (eg "code", "name", "description", etc)
 
 Stuff about linking to the processID
 
+## Validation
+
+Define standard error structure for document validation API response if a code is invalid.
 
 ## Licence
 
