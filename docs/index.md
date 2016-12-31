@@ -14,10 +14,12 @@ The JSON code list representation and standard API definition provides a alterna
 
 ## JSON Representation
 
+The JSON representation for standard coe lists is as defined below.
+
 ```
 {
    "CodeList":{
-       "listURI":"http://ausdigital.org/code-lists/paymentMeans-v1.0.0.json",
+       "ListURI":"http://ausdigital.org/code-lists/paymentMeans-v1.0.0.json",
        "SchemeIdentification":{
           "ListID":"UN/ECE 4461",
           "listAgencyID":"UN/ECE",
@@ -32,20 +34,36 @@ The JSON code list representation and standard API definition provides a alterna
           {"Code":"2","Name":"Automated clearing house credit"},
           ...
           {"Code":"20","Name":"Cheque"},
-          ...]
+          ...],
      }
 }   
 ```
 
+* The "ListURI" MUST resolve to the web resource that is the the code list JSON file.
+* The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when mapping from JSON to UBL XML
+* The "UsageContext" element is an array of process identifiers that represent the rule base a specific UBL implementation such as the DBC e-invoicing framework.  This element carries the same values as 
+  * The "ProcessIdentifier" element in a DCP service metadata record.
+  * The ""customizationID" element in a UBL instance document.  
+* The "Codes" element MUST contain at least one object representing one code in the scheme.
+* The properties of each object MUST conform to the code property terms defined below and MAY include other properties specific to the coding scheme.
+
 ## Code Property Terms
 
-Allowed list of code property names (eg "code", "name", "description", etc)
+The {Codes} object array contains the list of actual codes and proerties.  The property names MUST comply with the collowing guidance:
+
+* "Code" : required : contains a short code value (eg "AU") that must be unique within the scheme and must not contain spaces.
+* "Name" : required : contains a descriptive name for the code value (eg "Australia")
+* "Description" : optional : contains a richer description of the code meaning or interpretation.
+* "Status" : optional : Defaults to "Active" : Defines the status of the code value in the scheme and, if present, MUST be one of:
+  * "Active" : In current use
+  * "Deprecated" : still valid but should not be used in new implementations - will return a warning if used.
+  * "Obsolete" : was historically valid but must not be used any longer - will return an error if used.
 
 ## Context Association
 
 Stuff about linking to the processID
 
-## Validation
+## Validation API behaviour
 
 Define standard error structure for document validation API response if a code is invalid.
 
