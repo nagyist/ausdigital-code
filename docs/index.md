@@ -1,21 +1,49 @@
 # UBL JSON Codes
 
-## UBL JSON COde Lists Specification
+## UBL JSON Code Lists Specification
 
  * ![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)
  * Editor: Steve Capell
  * Contributors: 
 
-to do
-
-These extensions:
-
-to do
-
-
 ## Introduction
 
-to do
+This specification defines a JSON representation for standard code lists (eg the ISO-3166 coutnry code list) and also for context specific subsets and extensions.  
+
+The JSON code list representation and standard API definition provides a alternative to the UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html) and [Context/Value Association](http://docs.oasis-open.org/codelist/cs01-ContextValueAssociation-1.0/doc/context-value-association.html) specifications (and the associated XSLT based runtime validation framework) for implementers that prefer a REST/JSON model.
+
+## JSON Representation
+
+```
+{
+   "CodeList":{
+       "listURI":"http://ausdigital.org/code-lists/paymentMeans-v1.0.0.json",
+       "SchemeIdentification":{
+          "ListID":"UN/ECE 4461",
+          "listAgencyID":"UN/ECE",
+          "listAgencyName":"United Nations Economic Commission for Europe",
+          "ListName":"PaymentMeansCode",
+          "listVersionID":"D10B",
+          "listSchemeURI":"urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D10B"},
+       "UsageContext":{
+          "ProcessID":["urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"]
+       "Codes":[
+          {"Code":"1","Name":"Instrument not defined"},
+          {"Code":"2","Name":"Automated clearing house credit"},
+          ...
+          {"Code":"20","Name":"Cheque"},
+          ...]
+     }
+}   
+```
+
+## Code Property Terms
+
+Allowed list of code property names (eg "code", "name", "description", etc)
+
+## Context Association
+
+Stuff about linking to the processID
 
 
 ## Licence
