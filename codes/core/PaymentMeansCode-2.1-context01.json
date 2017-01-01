@@ -1,5 +1,5 @@
    "CodeList":{
-       "ListURI":"http://ausdigital.org/code-lists/paymentMeans-v1.0.0.json",
+       "ListURI":"https://github.com/ausdigital/code-lists/blob/master/codes/core/PaymentMeansCode-2.1-context01.json",
        "SchemeIdentification":{
           "listSchemeURI":"urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D10B",
           "ListID":"UNECE-4461",
