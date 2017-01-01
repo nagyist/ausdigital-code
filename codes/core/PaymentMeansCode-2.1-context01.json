@@ -12,7 +12,7 @@
        "Codes":[
           {"Code":"1","Name":"Instrument not defined"},
           {"Code":"2","Name":"Automated clearing house credit"},
-          {"Code":"20","Name":"Cheque"},
+          {"Code":"100","Name":"BPay"},
           ],
      }
 }   
