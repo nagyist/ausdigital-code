@@ -1,0 +1,1532 @@
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/PackagingTypeCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "United Nations Economic Commission for Europe",
+      "ListID": "UN/ECE rec 21",
+      "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:PackagingTypeCode-2.1",
+      "ListName": "PackagingTypeCode",
+      "listAgencyID": "UN/ECE",
+      "listVersionID": "9e"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "1A",
+        "Name": "Drum, steel"
+      },
+      {
+        "Code": "1B",
+        "Name": "Drum, aluminium"
+      },
+      {
+        "Code": "1D",
+        "Name": "Drum, plywood"
+      },
+      {
+        "Code": "1F",
+        "Name": "Container, flexible"
+      },
+      {
+        "Code": "1G",
+        "Name": "Drum, fibre"
+      },
+      {
+        "Code": "1W",
+        "Name": "Drum, wooden"
+      },
+      {
+        "Code": "2C",
+        "Name": "Barrel, wooden"
+      },
+      {
+        "Code": "3A",
+        "Name": "Jerrican, steel"
+      },
+      {
+        "Code": "3H",
+        "Name": "Jerrican, plastic"
+      },
+      {
+        "Code": "43",
+        "Name": "Bag, super bulk"
+      },
+      {
+        "Code": "44",
+        "Name": "Bag, polybag"
+      },
+      {
+        "Code": "4A",
+        "Name": "Box, steel"
+      },
+      {
+        "Code": "4B",
+        "Name": "Box, aluminium"
+      },
+      {
+        "Code": "4C",
+        "Name": "Box, natural wood"
+      },
+      {
+        "Code": "4D",
+        "Name": "Box, plywood"
+      },
+      {
+        "Code": "4F",
+        "Name": "Box, reconstituted wood"
+      },
+      {
+        "Code": "4G",
+        "Name": "Box, fibreboard"
+      },
+      {
+        "Code": "4H",
+        "Name": "Box, plastic"
+      },
+      {
+        "Code": "5H",
+        "Name": "Bag, woven plastic"
+      },
+      {
+        "Code": "5L",
+        "Name": "Bag, textile"
+      },
+      {
+        "Code": "5M",
+        "Name": "Bag, paper"
+      },
+      {
+        "Code": "6H",
+        "Name": "Composite packaging, plastic receptacle"
+      },
+      {
+        "Code": "6P",
+        "Name": "Composite packaging, glass receptacle"
+      },
+      {
+        "Code": "7A",
+        "Name": "Case, car"
+      },
+      {
+        "Code": "7B",
+        "Name": "Case, wooden"
+      },
+      {
+        "Code": "8A",
+        "Name": "Pallet, wooden"
+      },
+      {
+        "Code": "8B",
+        "Name": "Crate, wooden"
+      },
+      {
+        "Code": "8C",
+        "Name": "Bundle, wooden"
+      },
+      {
+        "Code": "AA",
+        "Name": "Intermediate bulk container, rigid plastic"
+      },
+      {
+        "Code": "AB",
+        "Name": "Receptacle, fibre"
+      },
+      {
+        "Code": "AC",
+        "Name": "Receptacle, paper"
+      },
+      {
+        "Code": "AD",
+        "Name": "Receptacle, wooden"
+      },
+      {
+        "Code": "AE",
+        "Name": "Aerosol"
+      },
+      {
+        "Code": "AF",
+        "Name": "Pallet, modular, collars 80cms * 60cms"
+      },
+      {
+        "Code": "AG",
+        "Name": "Pallet, shrinkwrapped"
+      },
+      {
+        "Code": "AH",
+        "Name": "Pallet, 100cms * 110cms"
+      },
+      {
+        "Code": "AI",
+        "Name": "Clamshell"
+      },
+      {
+        "Code": "AJ",
+        "Name": "Cone"
+      },
+      {
+        "Code": "AL",
+        "Name": "Ball"
+      },
+      {
+        "Code": "AM",
+        "Name": "Ampoule, non-protected"
+      },
+      {
+        "Code": "AP",
+        "Name": "Ampoule, protected"
+      },
+      {
+        "Code": "AT",
+        "Name": "Atomizer"
+      },
+      {
+        "Code": "AV",
+        "Name": "Capsule"
+      },
+      {
+        "Code": "B4",
+        "Name": "Belt"
+      },
+      {
+        "Code": "BA",
+        "Name": "Barrel"
+      },
+      {
+        "Code": "BB",
+        "Name": "Bobbin"
+      },
+      {
+        "Code": "BC",
+        "Name": "Bottlecrate / bottlerack"
+      },
+      {
+        "Code": "BD",
+        "Name": "Board"
+      },
+      {
+        "Code": "BE",
+        "Name": "Bundle"
+      },
+      {
+        "Code": "BF",
+        "Name": "Balloon, non-protected"
+      },
+      {
+        "Code": "BG",
+        "Name": "Bag"
+      },
+      {
+        "Code": "BH",
+        "Name": "Bunch"
+      },
+      {
+        "Code": "BI",
+        "Name": "Bin"
+      },
+      {
+        "Code": "BJ",
+        "Name": "Bucket"
+      },
+      {
+        "Code": "BK",
+        "Name": "Basket"
+      },
+      {
+        "Code": "BL",
+        "Name": "Bale, compressed"
+      },
+      {
+        "Code": "BM",
+        "Name": "Basin"
+      },
+      {
+        "Code": "BN",
+        "Name": "Bale, non-compressed"
+      },
+      {
+        "Code": "BO",
+        "Name": "Bottle, non-protected, cylindrical"
+      },
+      {
+        "Code": "BP",
+        "Name": "Balloon, protected"
+      },
+      {
+        "Code": "BQ",
+        "Name": "Bottle, protected cylindrical"
+      },
+      {
+        "Code": "BR",
+        "Name": "Bar"
+      },
+      {
+        "Code": "BS",
+        "Name": "Bottle, non-protected, bulbous"
+      },
+      {
+        "Code": "BT",
+        "Name": "Bolt"
+      },
+      {
+        "Code": "BU",
+        "Name": "Butt"
+      },
+      {
+        "Code": "BV",
+        "Name": "Bottle, protected bulbous"
+      },
+      {
+        "Code": "BW",
+        "Name": "Box, for liquids"
+      },
+      {
+        "Code": "BX",
+        "Name": "Box"
+      },
+      {
+        "Code": "BY",
+        "Name": "Board, in bundle/bunch/truss"
+      },
+      {
+        "Code": "BZ",
+        "Name": "Bars, in bundle/bunch/truss"
+      },
+      {
+        "Code": "CA",
+        "Name": "Can, rectangular"
+      },
+      {
+        "Code": "CB",
+        "Name": "Crate, beer"
+      },
+      {
+        "Code": "CC",
+        "Name": "Churn"
+      },
+      {
+        "Code": "CD",
+        "Name": "Can, with handle and spout"
+      },
+      {
+        "Code": "CE",
+        "Name": "Creel"
+      },
+      {
+        "Code": "CF",
+        "Name": "Coffer"
+      },
+      {
+        "Code": "CG",
+        "Name": "Cage"
+      },
+      {
+        "Code": "CH",
+        "Name": "Chest"
+      },
+      {
+        "Code": "CI",
+        "Name": "Canister"
+      },
+      {
+        "Code": "CJ",
+        "Name": "Coffin"
+      },
+      {
+        "Code": "CK",
+        "Name": "Cask"
+      },
+      {
+        "Code": "CL",
+        "Name": "Coil"
+      },
+      {
+        "Code": "CM",
+        "Name": "Card"
+      },
+      {
+        "Code": "CN",
+        "Name": "Container, not otherwise specified as transport equipment"
+      },
+      {
+        "Code": "CO",
+        "Name": "Carboy, non-protected"
+      },
+      {
+        "Code": "CP",
+        "Name": "Carboy, protected"
+      },
+      {
+        "Code": "CQ",
+        "Name": "Cartridge"
+      },
+      {
+        "Code": "CR",
+        "Name": "Crate"
+      },
+      {
+        "Code": "CS",
+        "Name": "Case"
+      },
+      {
+        "Code": "CT",
+        "Name": "Carton"
+      },
+      {
+        "Code": "CU",
+        "Name": "Cup"
+      },
+      {
+        "Code": "CV",
+        "Name": "Cover"
+      },
+      {
+        "Code": "CW",
+        "Name": "Cage, roll"
+      },
+      {
+        "Code": "CX",
+        "Name": "Can, cylindrical"
+      },
+      {
+        "Code": "CY",
+        "Name": "Cylinder"
+      },
+      {
+        "Code": "CZ",
+        "Name": "Canvas"
+      },
+      {
+        "Code": "DA",
+        "Name": "Crate, multiple layer, plastic"
+      },
+      {
+        "Code": "DB",
+        "Name": "Crate, multiple layer, wooden"
+      },
+      {
+        "Code": "DC",
+        "Name": "Crate, multiple layer, cardboard"
+      },
+      {
+        "Code": "DG",
+        "Name": "Cage, Commonwealth Handling Equipment Pool  (CHEP)"
+      },
+      {
+        "Code": "DH",
+        "Name": "Box, Commonwealth Handling Equipment Pool (CHEP), Eurobox"
+      },
+      {
+        "Code": "DI",
+        "Name": "Drum, iron"
+      },
+      {
+        "Code": "DJ",
+        "Name": "Demijohn, non-protected"
+      },
+      {
+        "Code": "DK",
+        "Name": "Crate, bulk, cardboard"
+      },
+      {
+        "Code": "DL",
+        "Name": "Crate, bulk, plastic"
+      },
+      {
+        "Code": "DM",
+        "Name": "Crate, bulk, wooden"
+      },
+      {
+        "Code": "DN",
+        "Name": "Dispenser"
+      },
+      {
+        "Code": "DP",
+        "Name": "Demijohn, protected"
+      },
+      {
+        "Code": "DR",
+        "Name": "Drum"
+      },
+      {
+        "Code": "DS",
+        "Name": "Tray, one layer no cover, plastic"
+      },
+      {
+        "Code": "DT",
+        "Name": "Tray, one layer no cover, wooden"
+      },
+      {
+        "Code": "DU",
+        "Name": "Tray, one layer no cover, polystyrene"
+      },
+      {
+        "Code": "DV",
+        "Name": "Tray, one layer no cover, cardboard"
+      },
+      {
+        "Code": "DW",
+        "Name": "Tray, two layers no cover, plastic tray"
+      },
+      {
+        "Code": "DX",
+        "Name": "Tray, two layers no cover, wooden"
+      },
+      {
+        "Code": "DY",
+        "Name": "Tray, two layers no cover, cardboard"
+      },
+      {
+        "Code": "EC",
+        "Name": "Bag, plastic"
+      },
+      {
+        "Code": "ED",
+        "Name": "Case, with pallet base"
+      },
+      {
+        "Code": "EE",
+        "Name": "Case, with pallet base, wooden"
+      },
+      {
+        "Code": "EF",
+        "Name": "Case, with pallet base, cardboard"
+      },
+      {
+        "Code": "EG",
+        "Name": "Case, with pallet base, plastic"
+      },
+      {
+        "Code": "EH",
+        "Name": "Case, with pallet base, metal"
+      },
+      {
+        "Code": "EI",
+        "Name": "Case, isothermic"
+      },
+      {
+        "Code": "EN",
+        "Name": "Envelope"
+      },
+      {
+        "Code": "FB",
+        "Name": "Flexibag"
+      },
+      {
+        "Code": "FC",
+        "Name": "Crate, fruit"
+      },
+      {
+        "Code": "FD",
+        "Name": "Crate, framed"
+      },
+      {
+        "Code": "FE",
+        "Name": "Flexitank"
+      },
+      {
+        "Code": "FI",
+        "Name": "Firkin"
+      },
+      {
+        "Code": "FL",
+        "Name": "Flask"
+      },
+      {
+        "Code": "FO",
+        "Name": "Footlocker"
+      },
+      {
+        "Code": "FP",
+        "Name": "Filmpack"
+      },
+      {
+        "Code": "FR",
+        "Name": "Frame"
+      },
+      {
+        "Code": "FT",
+        "Name": "Foodtainer"
+      },
+      {
+        "Code": "FW",
+        "Name": "Cart, flatbed"
+      },
+      {
+        "Code": "FX",
+        "Name": "Bag, flexible container"
+      },
+      {
+        "Code": "GB",
+        "Name": "Bottle, gas"
+      },
+      {
+        "Code": "GI",
+        "Name": "Girder"
+      },
+      {
+        "Code": "GL",
+        "Name": "Container, gallon"
+      },
+      {
+        "Code": "GR",
+        "Name": "Receptacle, glass"
+      },
+      {
+        "Code": "GU",
+        "Name": "Tray, containing horizontally stacked flat items"
+      },
+      {
+        "Code": "GY",
+        "Name": "Bag, gunny"
+      },
+      {
+        "Code": "GZ",
+        "Name": "Girders, in bundle/bunch/truss"
+      },
+      {
+        "Code": "HA",
+        "Name": "Basket, with handle, plastic"
+      },
+      {
+        "Code": "HB",
+        "Name": "Basket, with handle, wooden"
+      },
+      {
+        "Code": "HC",
+        "Name": "Basket, with handle, cardboard"
+      },
+      {
+        "Code": "HG",
+        "Name": "Hogshead"
+      },
+      {
+        "Code": "HN",
+        "Name": "Hanger"
+      },
+      {
+        "Code": "HR",
+        "Name": "Hamper"
+      },
+      {
+        "Code": "IA",
+        "Name": "Package, display, wooden"
+      },
+      {
+        "Code": "IB",
+        "Name": "Package, display, cardboard"
+      },
+      {
+        "Code": "IC",
+        "Name": "Package, display, plastic"
+      },
+      {
+        "Code": "ID",
+        "Name": "Package, display, metal"
+      },
+      {
+        "Code": "IE",
+        "Name": "Package, show"
+      },
+      {
+        "Code": "IF",
+        "Name": "Package, flow"
+      },
+      {
+        "Code": "IG",
+        "Name": "Package, paper wrapped"
+      },
+      {
+        "Code": "IH",
+        "Name": "Drum, plastic"
+      },
+      {
+        "Code": "IK",
+        "Name": "Package, cardboard, with bottle grip-holes"
+      },
+      {
+        "Code": "IL",
+        "Name": "Tray, rigid, lidded stackable (CEN TS 14482:2002)"
+      },
+      {
+        "Code": "IN",
+        "Name": "Ingot"
+      },
+      {
+        "Code": "IZ",
+        "Name": "Ingots, in bundle/bunch/truss"
+      },
+      {
+        "Code": "JB",
+        "Name": "Bag, jumbo"
+      },
+      {
+        "Code": "JC",
+        "Name": "Jerrican, rectangular"
+      },
+      {
+        "Code": "JG",
+        "Name": "Jug"
+      },
+      {
+        "Code": "JR",
+        "Name": "Jar"
+      },
+      {
+        "Code": "JT",
+        "Name": "Jutebag"
+      },
+      {
+        "Code": "JY",
+        "Name": "Jerrican, cylindrical"
+      },
+      {
+        "Code": "KG",
+        "Name": "Keg"
+      },
+      {
+        "Code": "KI",
+        "Name": "Kit"
+      },
+      {
+        "Code": "LE",
+        "Name": "Luggage"
+      },
+      {
+        "Code": "LG",
+        "Name": "Log"
+      },
+      {
+        "Code": "LT",
+        "Name": "Lot"
+      },
+      {
+        "Code": "LU",
+        "Name": "Lug"
+      },
+      {
+        "Code": "LV",
+        "Name": "Liftvan"
+      },
+      {
+        "Code": "LZ",
+        "Name": "Logs, in bundle/bunch/truss"
+      },
+      {
+        "Code": "MA",
+        "Name": "Crate, metal"
+      },
+      {
+        "Code": "MB",
+        "Name": "Bag, multiply"
+      },
+      {
+        "Code": "MC",
+        "Name": "Crate, milk"
+      },
+      {
+        "Code": "ME",
+        "Name": "Container, metal"
+      },
+      {
+        "Code": "MR",
+        "Name": "Receptacle, metal"
+      },
+      {
+        "Code": "MS",
+        "Name": "Sack, multi-wall"
+      },
+      {
+        "Code": "MT",
+        "Name": "Mat"
+      },
+      {
+        "Code": "MW",
+        "Name": "Receptacle, plastic wrapped"
+      },
+      {
+        "Code": "MX",
+        "Name": "Matchbox"
+      },
+      {
+        "Code": "NA",
+        "Name": "Not available"
+      },
+      {
+        "Code": "NE",
+        "Name": "Unpacked or unpackaged"
+      },
+      {
+        "Code": "NF",
+        "Name": "Unpacked or unpackaged, single unit"
+      },
+      {
+        "Code": "NG",
+        "Name": "Unpacked or unpackaged, multiple units"
+      },
+      {
+        "Code": "NS",
+        "Name": "Nest"
+      },
+      {
+        "Code": "NT",
+        "Name": "Net"
+      },
+      {
+        "Code": "NU",
+        "Name": "Net, tube, plastic"
+      },
+      {
+        "Code": "NV",
+        "Name": "Net, tube, textile"
+      },
+      {
+        "Code": "OA",
+        "Name": "Pallet, CHEP 40 cm x 60 cm"
+      },
+      {
+        "Code": "OB",
+        "Name": "Pallet, CHEP 80 cm x 120 cm"
+      },
+      {
+        "Code": "OC",
+        "Name": "Pallet, CHEP 100 cm x 120 cm"
+      },
+      {
+        "Code": "OD",
+        "Name": "Pallet, AS 4068-1993"
+      },
+      {
+        "Code": "OE",
+        "Name": "Pallet, ISO T11"
+      },
+      {
+        "Code": "OF",
+        "Name": "Platform, unspecified weight or dimension"
+      },
+      {
+        "Code": "OK",
+        "Name": "Block"
+      },
+      {
+        "Code": "OT",
+        "Name": "Octabin"
+      },
+      {
+        "Code": "OU",
+        "Name": "Container, outer"
+      },
+      {
+        "Code": "P2",
+        "Name": "Pan"
+      },
+      {
+        "Code": "PA",
+        "Name": "Packet"
+      },
+      {
+        "Code": "PB",
+        "Name": "Pallet, box Combined open-ended box and pallet"
+      },
+      {
+        "Code": "PC",
+        "Name": "Parcel"
+      },
+      {
+        "Code": "PD",
+        "Name": "Pallet, modular, collars 80cms * 100cms"
+      },
+      {
+        "Code": "PE",
+        "Name": "Pallet, modular, collars 80cms * 120cms"
+      },
+      {
+        "Code": "PF",
+        "Name": "Pen"
+      },
+      {
+        "Code": "PG",
+        "Name": "Plate"
+      },
+      {
+        "Code": "PH",
+        "Name": "Pitcher"
+      },
+      {
+        "Code": "PI",
+        "Name": "Pipe"
+      },
+      {
+        "Code": "PJ",
+        "Name": "Punnet"
+      },
+      {
+        "Code": "PK",
+        "Name": "Package"
+      },
+      {
+        "Code": "PL",
+        "Name": "Pail"
+      },
+      {
+        "Code": "PN",
+        "Name": "Plank"
+      },
+      {
+        "Code": "PO",
+        "Name": "Pouch"
+      },
+      {
+        "Code": "PP",
+        "Name": "Piece"
+      },
+      {
+        "Code": "PR",
+        "Name": "Receptacle, plastic"
+      },
+      {
+        "Code": "PT",
+        "Name": "Pot"
+      },
+      {
+        "Code": "PU",
+        "Name": "Tray"
+      },
+      {
+        "Code": "PV",
+        "Name": "Pipes, in bundle/bunch/truss"
+      },
+      {
+        "Code": "PX",
+        "Name": "Pallet"
+      },
+      {
+        "Code": "PY",
+        "Name": "Plates, in bundle/bunch/truss"
+      },
+      {
+        "Code": "PZ",
+        "Name": "Planks, in bundle/bunch/truss"
+      },
+      {
+        "Code": "QA",
+        "Name": "Drum, steel, non-removable head"
+      },
+      {
+        "Code": "QB",
+        "Name": "Drum, steel, removable head"
+      },
+      {
+        "Code": "QC",
+        "Name": "Drum, aluminium, non-removable head"
+      },
+      {
+        "Code": "QD",
+        "Name": "Drum, aluminium, removable head"
+      },
+      {
+        "Code": "QF",
+        "Name": "Drum, plastic, non-removable head"
+      },
+      {
+        "Code": "QG",
+        "Name": "Drum, plastic, removable head"
+      },
+      {
+        "Code": "QH",
+        "Name": "Barrel, wooden, bung type"
+      },
+      {
+        "Code": "QJ",
+        "Name": "Barrel, wooden, removable head"
+      },
+      {
+        "Code": "QK",
+        "Name": "Jerrican, steel, non-removable head"
+      },
+      {
+        "Code": "QL",
+        "Name": "Jerrican, steel, removable head"
+      },
+      {
+        "Code": "QM",
+        "Name": "Jerrican, plastic, non-removable head"
+      },
+      {
+        "Code": "QN",
+        "Name": "Jerrican, plastic, removable head"
+      },
+      {
+        "Code": "QP",
+        "Name": "Box, wooden, natural wood, ordinary"
+      },
+      {
+        "Code": "QQ",
+        "Name": "Box, wooden, natural wood, with sift proof walls"
+      },
+      {
+        "Code": "QR",
+        "Name": "Box, plastic, expanded"
+      },
+      {
+        "Code": "QS",
+        "Name": "Box, plastic, solid"
+      },
+      {
+        "Code": "RD",
+        "Name": "Rod"
+      },
+      {
+        "Code": "RG",
+        "Name": "Ring"
+      },
+      {
+        "Code": "RJ",
+        "Name": "Rack, clothing hanger"
+      },
+      {
+        "Code": "RK",
+        "Name": "Rack"
+      },
+      {
+        "Code": "RL",
+        "Name": "Reel"
+      },
+      {
+        "Code": "RO",
+        "Name": "Roll"
+      },
+      {
+        "Code": "RT",
+        "Name": "Rednet"
+      },
+      {
+        "Code": "RZ",
+        "Name": "Rods, in bundle/bunch/truss"
+      },
+      {
+        "Code": "SA",
+        "Name": "Sack"
+      },
+      {
+        "Code": "SB",
+        "Name": "Slab"
+      },
+      {
+        "Code": "SC",
+        "Name": "Crate, shallow"
+      },
+      {
+        "Code": "SD",
+        "Name": "Spindle"
+      },
+      {
+        "Code": "SE",
+        "Name": "Sea-chest"
+      },
+      {
+        "Code": "SH",
+        "Name": "Sachet"
+      },
+      {
+        "Code": "SI",
+        "Name": "Skid"
+      },
+      {
+        "Code": "SK",
+        "Name": "Case, skeleton"
+      },
+      {
+        "Code": "SL",
+        "Name": "Slipsheet"
+      },
+      {
+        "Code": "SM",
+        "Name": "Sheetmetal"
+      },
+      {
+        "Code": "SO",
+        "Name": "Spool"
+      },
+      {
+        "Code": "SP",
+        "Name": "Sheet, plastic wrapping"
+      },
+      {
+        "Code": "SS",
+        "Name": "Case, steel"
+      },
+      {
+        "Code": "ST",
+        "Name": "Sheet"
+      },
+      {
+        "Code": "SU",
+        "Name": "Suitcase"
+      },
+      {
+        "Code": "SV",
+        "Name": "Envelope, steel"
+      },
+      {
+        "Code": "SW",
+        "Name": "Shrinkwrapped"
+      },
+      {
+        "Code": "SX",
+        "Name": "Set"
+      },
+      {
+        "Code": "SY",
+        "Name": "Sleeve"
+      },
+      {
+        "Code": "SZ",
+        "Name": "Sheets, in bundle/bunch/truss"
+      },
+      {
+        "Code": "T1",
+        "Name": "Tablet"
+      },
+      {
+        "Code": "TB",
+        "Name": "Tub"
+      },
+      {
+        "Code": "TC",
+        "Name": "Tea-chest"
+      },
+      {
+        "Code": "TD",
+        "Name": "Tube, collapsible"
+      },
+      {
+        "Code": "TE",
+        "Name": "Tyre"
+      },
+      {
+        "Code": "TG",
+        "Name": "Tank container, generic"
+      },
+      {
+        "Code": "TI",
+        "Name": "Tierce"
+      },
+      {
+        "Code": "TK",
+        "Name": "Tank, rectangular"
+      },
+      {
+        "Code": "TL",
+        "Name": "Tub, with lid"
+      },
+      {
+        "Code": "TN",
+        "Name": "Tin"
+      },
+      {
+        "Code": "TO",
+        "Name": "Tun"
+      },
+      {
+        "Code": "TR",
+        "Name": "Trunk"
+      },
+      {
+        "Code": "TS",
+        "Name": "Truss"
+      },
+      {
+        "Code": "TT",
+        "Name": "Bag, tote"
+      },
+      {
+        "Code": "TU",
+        "Name": "Tube"
+      },
+      {
+        "Code": "TV",
+        "Name": "Tube, with nozzle"
+      },
+      {
+        "Code": "TW",
+        "Name": "Pallet, triwall"
+      },
+      {
+        "Code": "TY",
+        "Name": "Tank, cylindrical"
+      },
+      {
+        "Code": "TZ",
+        "Name": "Tubes, in bundle/bunch/truss"
+      },
+      {
+        "Code": "UC",
+        "Name": "Uncaged"
+      },
+      {
+        "Code": "UN",
+        "Name": "Unit"
+      },
+      {
+        "Code": "VA",
+        "Name": "Vat"
+      },
+      {
+        "Code": "VG",
+        "Name": "Bulk, gas (at 1031 mbar and 15°C)"
+      },
+      {
+        "Code": "VI",
+        "Name": "Vial"
+      },
+      {
+        "Code": "VK",
+        "Name": "Vanpack"
+      },
+      {
+        "Code": "VL",
+        "Name": "Bulk, liquid"
+      },
+      {
+        "Code": "VO",
+        "Name": "Bulk, solid, large particles (&#147;nodules&#148;)"
+      },
+      {
+        "Code": "VP",
+        "Name": "Vacuum-packed"
+      },
+      {
+        "Code": "VQ",
+        "Name": "Bulk, liquefied gas (at abnormal temperature/pressure)"
+      },
+      {
+        "Code": "VN",
+        "Name": "Vehicle"
+      },
+      {
+        "Code": "VR",
+        "Name": "Bulk, solid, granular particles (&#147;grains&#148;)"
+      },
+      {
+        "Code": "VS",
+        "Name": "Bulk, scrap metal"
+      },
+      {
+        "Code": "VY",
+        "Name": "Bulk, solid, fine particles (&#147;powders&#148;)"
+      },
+      {
+        "Code": "WA",
+        "Name": "Intermediate bulk container"
+      },
+      {
+        "Code": "WB",
+        "Name": "Wickerbottle"
+      },
+      {
+        "Code": "WC",
+        "Name": "Intermediate bulk container, steel"
+      },
+      {
+        "Code": "WD",
+        "Name": "Intermediate bulk container, aluminium"
+      },
+      {
+        "Code": "WF",
+        "Name": "Intermediate bulk container, metal"
+      },
+      {
+        "Code": "WG",
+        "Name": "Intermediate bulk container, steel, pressurised > 10 kpa"
+      },
+      {
+        "Code": "WH",
+        "Name": "Intermediate bulk container, aluminium, pressurised > 10 kpa"
+      },
+      {
+        "Code": "WJ",
+        "Name": "Intermediate bulk container, metal, pressure 10 kpa"
+      },
+      {
+        "Code": "WK",
+        "Name": "Intermediate bulk container, steel, liquid"
+      },
+      {
+        "Code": "WL",
+        "Name": "Intermediate bulk container, aluminium, liquid"
+      },
+      {
+        "Code": "WM",
+        "Name": "Intermediate bulk container, metal, liquid"
+      },
+      {
+        "Code": "WN",
+        "Name": "Intermediate bulk container, woven plastic, without coat/liner"
+      },
+      {
+        "Code": "WP",
+        "Name": "Intermediate bulk container, woven plastic, coated"
+      },
+      {
+        "Code": "WQ",
+        "Name": "Intermediate bulk container, woven plastic, with liner"
+      },
+      {
+        "Code": "WR",
+        "Name": "Intermediate bulk container, woven plastic, coated and liner"
+      },
+      {
+        "Code": "WS",
+        "Name": "Intermediate bulk container, plastic film"
+      },
+      {
+        "Code": "WT",
+        "Name": "Intermediate bulk container, textile with out coat/liner"
+      },
+      {
+        "Code": "WU",
+        "Name": "Intermediate bulk container, natural wood, with inner liner"
+      },
+      {
+        "Code": "WV",
+        "Name": "Intermediate bulk container, textile, coated"
+      },
+      {
+        "Code": "WW",
+        "Name": "Intermediate bulk container, textile, with liner"
+      },
+      {
+        "Code": "WX",
+        "Name": "Intermediate bulk container, textile, coated and liner"
+      },
+      {
+        "Code": "WY",
+        "Name": "Intermediate bulk container, plywood, with inner liner"
+      },
+      {
+        "Code": "WZ",
+        "Name": "Intermediate bulk container, reconstituted wood, with inner liner"
+      },
+      {
+        "Code": "XA",
+        "Name": "Bag, woven plastic, without inner coat/liner"
+      },
+      {
+        "Code": "XB",
+        "Name": "Bag, woven plastic, sift proof"
+      },
+      {
+        "Code": "XC",
+        "Name": "Bag, woven plastic, water resistant"
+      },
+      {
+        "Code": "XD",
+        "Name": "Bag, plastics film"
+      },
+      {
+        "Code": "XF",
+        "Name": "Bag, textile, without inner coat/liner"
+      },
+      {
+        "Code": "XG",
+        "Name": "Bag, textile, sift proof"
+      },
+      {
+        "Code": "XH",
+        "Name": "Bag, textile, water resistant"
+      },
+      {
+        "Code": "XJ",
+        "Name": "Bag, paper, multi-wall"
+      },
+      {
+        "Code": "XK",
+        "Name": "Bag, paper, multi-wall, water resistant"
+      },
+      {
+        "Code": "YA",
+        "Name": "Composite packaging, plastic receptacle in steel drum"
+      },
+      {
+        "Code": "YB",
+        "Name": "Composite packaging, plastic receptacle in steel crate box"
+      },
+      {
+        "Code": "YC",
+        "Name": "Composite packaging, plastic receptacle in aluminium drum"
+      },
+      {
+        "Code": "YD",
+        "Name": "Composite packaging, plastic receptacle in aluminium crate"
+      },
+      {
+        "Code": "YF",
+        "Name": "Composite packaging, plastic receptacle in wooden box"
+      },
+      {
+        "Code": "YG",
+        "Name": "Composite packaging, plastic receptacle in plywood drum"
+      },
+      {
+        "Code": "YH",
+        "Name": "Composite packaging, plastic receptacle in plywood box"
+      },
+      {
+        "Code": "YJ",
+        "Name": "Composite packaging, plastic receptacle in fibre drum"
+      },
+      {
+        "Code": "YK",
+        "Name": "Composite packaging, plastic receptacle in fibreboard box"
+      },
+      {
+        "Code": "YL",
+        "Name": "Composite packaging, plastic receptacle in plastic drum"
+      },
+      {
+        "Code": "YM",
+        "Name": "Composite packaging, plastic receptacle in solid plastic box"
+      },
+      {
+        "Code": "YN",
+        "Name": "Composite packaging, glass receptacle in steel drum"
+      },
+      {
+        "Code": "YP",
+        "Name": "Composite packaging, glass receptacle in steel crate box"
+      },
+      {
+        "Code": "YQ",
+        "Name": "Composite packaging, glass receptacle in aluminium drum"
+      },
+      {
+        "Code": "YR",
+        "Name": "Composite packaging, glass receptacle in aluminium crate"
+      },
+      {
+        "Code": "YS",
+        "Name": "Composite packaging, glass receptacle in wooden box"
+      },
+      {
+        "Code": "YT",
+        "Name": "Composite packaging, glass receptacle in plywood drum"
+      },
+      {
+        "Code": "YV",
+        "Name": "Composite packaging, glass receptacle in wickerwork hamper"
+      },
+      {
+        "Code": "YW",
+        "Name": "Composite packaging, glass receptacle in fibre drum"
+      },
+      {
+        "Code": "YX",
+        "Name": "Composite packaging, glass receptacle in fibreboard box"
+      },
+      {
+        "Code": "YY",
+        "Name": "Composite packaging, glass receptacle in expandable plastic pack"
+      },
+      {
+        "Code": "YZ",
+        "Name": "Composite packaging, glass receptacle in solid plastic pack"
+      },
+      {
+        "Code": "ZA",
+        "Name": "Intermediate bulk container, paper, multi-wall"
+      },
+      {
+        "Code": "ZB",
+        "Name": "Bag, large"
+      },
+      {
+        "Code": "ZC",
+        "Name": "Intermediate bulk container, paper, multi-wall, water resistant"
+      },
+      {
+        "Code": "ZD",
+        "Name": "Intermediate bulk container, rigid plastic, with structural equipment, solids"
+      },
+      {
+        "Code": "ZF",
+        "Name": "Intermediate bulk container, rigid plastic, freestanding, solids"
+      },
+      {
+        "Code": "ZG",
+        "Name": "Intermediate bulk container, rigid plastic, with structural equipment, pressurised"
+      },
+      {
+        "Code": "ZH",
+        "Name": "Intermediate bulk container, rigid plastic, freestanding, pressurised"
+      },
+      {
+        "Code": "ZJ",
+        "Name": "Intermediate bulk container, rigid plastic, with structural equipment, liquids"
+      },
+      {
+        "Code": "ZK",
+        "Name": "Intermediate bulk container, rigid plastic, freestanding, liquids"
+      },
+      {
+        "Code": "ZL",
+        "Name": "Intermediate bulk container, composite, rigid plastic, solids"
+      },
+      {
+        "Code": "ZM",
+        "Name": "Intermediate bulk container, composite, flexible plastic, solids"
+      },
+      {
+        "Code": "ZN",
+        "Name": "Intermediate bulk container, composite, rigid plastic, pressurised"
+      },
+      {
+        "Code": "ZP",
+        "Name": "Intermediate bulk container, composite, flexible plastic, pressurised"
+      },
+      {
+        "Code": "ZQ",
+        "Name": "Intermediate bulk container, composite, rigid plastic, liquids"
+      },
+      {
+        "Code": "ZR",
+        "Name": "Intermediate bulk container, composite, flexible plastic, liquids"
+      },
+      {
+        "Code": "ZS",
+        "Name": "Intermediate bulk container, composite"
+      },
+      {
+        "Code": "ZT",
+        "Name": "Intermediate bulk container, fibreboard"
+      },
+      {
+        "Code": "ZU",
+        "Name": "Intermediate bulk container, flexible"
+      },
+      {
+        "Code": "ZV",
+        "Name": "Intermediate bulk container, metal, other than steel"
+      },
+      {
+        "Code": "ZW",
+        "Name": "Intermediate bulk container, natural wood"
+      },
+      {
+        "Code": "ZX",
+        "Name": "Intermediate bulk container, plywood"
+      },
+      {
+        "Code": "ZY",
+        "Name": "Intermediate bulk container, reconstituted wood"
+      },
+      {
+        "Code": "ZZ",
+        "Name": "Mutually defined"
+      }
+    ]
+  }
+}

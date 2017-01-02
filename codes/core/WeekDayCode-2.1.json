@@ -1,0 +1,47 @@
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/WeekDayCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "International Organization for Standardization",
+      "listSchemeURI": "urn:iso:8601:WeekDay:codelist:2004",
+      "ListName": "WeekDayCode",
+      "listAgencyID": "ISO",
+      "listVersionID": "2004"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "1",
+        "Name": "Monday"
+      },
+      {
+        "Code": "2",
+        "Name": "Tuesday"
+      },
+      {
+        "Code": "3",
+        "Name": "Wednesday"
+      },
+      {
+        "Code": "4",
+        "Name": "Thursday"
+      },
+      {
+        "Code": "5",
+        "Name": "Friday"
+      },
+      {
+        "Code": "6",
+        "Name": "Saturday"
+      },
+      {
+        "Code": "7",
+        "Name": "Sunday"
+      }
+    ]
+  }
+}

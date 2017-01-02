@@ -1,0 +1,51 @@
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/DocumentStatusCode-2.1.json",
+  "SchemeIdentification": {
+    "listAgencyName": "OASIS Universal Business Language",
+    "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:DocumentStatusCode-2.1",
+    "ListName": "DocumentStatusCode",
+    "listAgencyID": "UBL",
+    "listVersionID": "2.1"
+  },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "Cancelled",
+        "Name": "Document has been cancelled"
+      },
+      {
+        "Code": "Disputed",
+        "Name": "Document is disputed"
+      },
+      {
+        "Code": "NoStatus",
+        "Name": "No status on document"
+      },
+      {
+        "Code": "Revised",
+        "Name": "Document has been revised"
+      },
+      {
+        "Code": "Confirmed",
+        "Name": "Document has been confirmed"
+      },
+      {
+        "Code": "NotConfirmed",
+        "Name": "Document has not been confirmed"
+      },
+      {
+        "Code": "Rejected",
+        "Name": "Document has been rejected"
+      },
+      {
+        "Code": "Completed",
+        "Name": "Document has been completed"
+        ]
+      }
+  }
+}
