@@ -37,16 +37,17 @@ The JSON representation for standard coe lists is as defined below.
 }   
 ```
 
-* The "ListURI" MUST resolve to the web resource that is the the code list JSON file.  For Ausdigital framework codes the path will always be to the /codes folder in this repository as in the example above.
-* The "listSchemeURI" is a canonical identifier issued by the code list management agency.  In the example above that is the UN/ECE.
-* The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when [mapping documents](https://github.com/ausdigital/ubl-json/blob/master/docs/TransformationAPI.md) from JSON to UBL XML.
-* The "UsageContext" element is an array of process identifiers that represent the rule base a specific UBL implementation such as the DBC e-invoicing framework.  This element carries the same values as 
+ * The "ListURI" MUST resolve to the web resource that is the the code list JSON file.  For Ausdigital framework codes the path will always be to the /codes folder in this repository as in the example above.
+ * The "listSchemeURI" is a canonical identifier issued by the code list management agency.  In the example above that is the UN/ECE.
+ * The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when [mapping documents](https://github.com/ausdigital/ubl-json/blob/master/docs/TransformationAPI.md) from JSON to UBL XML.
+ * The "UsageContext" element is an array of process identifiers that represent the rule base a specific UBL implementation such as the DBC e-invoicing framework.  This element carries the same values as:
 
-  * The "ProcessIdentifier" element in a DCP service metadata record.
-  * The "customizationID" element in a UBL instance document.  
+   * The "ProcessIdentifier" element in a DCP service metadata record.
+   * The "customizationID" element in a UBL instance document.  
 
-* The "Codes" element MUST contain at least one object representing one code in the scheme.
-* The properties of each object MUST conform to the code property terms defined below and MAY include other properties specific to the coding scheme.
+ * The "Codes" element MUST contain at least one object representing one code in the scheme.
+ * The properties of each object MUST conform to the code property terms defined below and MAY include other properties specific to the coding scheme.
+
 
 ## Code property terms
 
