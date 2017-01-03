@@ -59,16 +59,19 @@ The {Codes} object array contains the list of actual codes and proerties.  The p
     * "Deprecated" : still valid but should not be used in new implementations - will return a warning if used.
     * "Obsolete" : was historically valid but must not be used any longer - will return an error if used.
 
-## Managing standard code lists
+## Standard code lists
 
-Most code lists are managed and issued by an international standards body such as ISO, UN/ECE or similar.  All the code lists in the https://github.com/ausdigital/code-lists/tree/master/codes/core path are simply JSON representations of the corresponding UBL code list which itself is usually based on an ISO or UN/ECE code list.
+**[https://github.com/ausdigital/code-lists/tree/master/codes/core](https://github.com/ausdigital/code-lists/tree/master/codes/core)**
 
-## Managing context specific lists
+All the code lists in the core directory are simply JSON representations of the corresponding UBL code list which itself is usually based on an ISO or UN/ECE code list.
+
+## Context specific lists
+
+**[https://github.com/ausdigital/code-lists/tree/master/codes/contexts](https://github.com/ausdigital/code-lists/tree/master/codes/contexts)**
 
 Code lists often need to be restricted or extended for specific business contexts.  For example, in the Australian context, it may be useful to remove most of the European specific payment means codes from the standard UBL code list and to add a code for BPAY.  
-
- * Context specific code lists are maintained in this repository at https://github.com/ausdigital/code-lists/tree/master/codes/contexts 
- * The context specific list MUST be a copy of a code list in the /core path with only the following changes:
+  
+ * The context specific lists are maintained in the /contexts path and MUST be a copy of a code list in the /core path with only the following changes:
     * Addition of a suffix "contextnn" to the file name - for example PaymentMeansCode-2.1-context01.json
     * "ListURI" element to reflect the new code list URL.
     * A list of ProcessID references as shown in the example above.  These MUST match the "customizationID" field contents in the corresponding buisness documents that will use the context specific code list.
