@@ -1,0 +1,272 @@
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/TransportEquipmentTypeCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "United Nations Economic Commission for Europe",
+      "ListID": "UN/ECE 8053",
+      "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:TransportEquipmentCategoryCode:D10B",
+      "ListName": "TransportEquipmentTypeCode",
+      "listAgencyID": "UN/ECE",
+      "listVersionID": "D10B"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "AA",
+        "Name": "Ground equipment"
+      },
+      {
+        "Code": "AB",
+        "Name": "Chain"
+      },
+      {
+        "Code": "AD",
+        "Name": "Temperature recorder"
+      },
+      {
+        "Code": "AE",
+        "Name": "Body trailer"
+      },
+      {
+        "Code": "AG",
+        "Name": "Slipsheet"
+      },
+      {
+        "Code": "AH",
+        "Name": "No special equipment needed"
+      },
+      {
+        "Code": "AI",
+        "Name": "Vessel hold"
+      },
+      {
+        "Code": "AJ",
+        "Name": "Flat rack"
+      },
+      {
+        "Code": "AK",
+        "Name": "Aircraft"
+      },
+      {
+        "Code": "AL",
+        "Name": "Medical device"
+      },
+      {
+        "Code": "AM",
+        "Name": "Refrigerated container"
+      },
+      {
+        "Code": "AN",
+        "Name": "Synthetic pallet 80*120cm"
+      },
+      {
+        "Code": "AO",
+        "Name": "Synthetic pallet 100*120cm"
+      },
+      {
+        "Code": "AP",
+        "Name": "Clothing hanger rack"
+      },
+      {
+        "Code": "AQ",
+        "Name": "Road/rail trailer"
+      },
+      {
+        "Code": "AT",
+        "Name": "Overhang wagon"
+      },
+      {
+        "Code": "BL",
+        "Name": "Blocks"
+      },
+      {
+        "Code": "BPN",
+        "Name": "Box pallet non-exchangeable"
+      },
+      {
+        "Code": "BPO",
+        "Name": "Truck being transported"
+      },
+      {
+        "Code": "BPP",
+        "Name": "Truck and trailer combination being transported"
+      },
+      {
+        "Code": "BPQ",
+        "Name": "Tractor and trailer being transported"
+      },
+      {
+        "Code": "BPR",
+        "Name": "Postal bag"
+      },
+      {
+        "Code": "BPS",
+        "Name": "Letter Tray"
+      },
+      {
+        "Code": "BPT",
+        "Name": "Roller Cage"
+      },
+      {
+        "Code": "BPU",
+        "Name": "Flats Tray"
+      },
+      {
+        "Code": "BPV",
+        "Name": "Out of bag parcel"
+      },
+      {
+        "Code": "BPW",
+        "Name": "Wheeled Platform"
+      },
+      {
+        "Code": "BPX",
+        "Name": "Container non-compliant with the Customs Convention on Containers"
+      },
+      {
+        "Code": "BPY",
+        "Name": "Box pallet EUR Y non exchangeable"
+      },
+      {
+        "Code": "BPZ",
+        "Name": "Roll Pallet 1"
+      },
+      {
+        "Code": "BR",
+        "Name": "Barge"
+      },
+      {
+        "Code": "BX",
+        "Name": "Boxcar"
+      },
+      {
+        "Code": "CH",
+        "Name": "Chassis"
+      },
+      {
+        "Code": "CN",
+        "Name": "Container"
+      },
+      {
+        "Code": "DPA",
+        "Name": "Deadlight (panel)"
+      },
+      {
+        "Code": "DPB",
+        "Name": "Roll Pallet 2"
+      },
+      {
+        "Code": "EFP",
+        "Name": "Exchangeable EUR flat pallet"
+      },
+      {
+        "Code": "EYP",
+        "Name": "Exchangeable EUR Y box pallet"
+      },
+      {
+        "Code": "FPN",
+        "Name": "Flat pallet EUR non exchangeable"
+      },
+      {
+        "Code": "FPR",
+        "Name": "Flat pallet (railway property) non-exchangeable"
+      },
+      {
+        "Code": "IL",
+        "Name": "Lidded stackable rigid tray (CEN TS 14482:2002)"
+      },
+      {
+        "Code": "LAR",
+        "Name": "Lashing rope"
+      },
+      {
+        "Code": "LU",
+        "Name": "Load/unload device on equipment"
+      },
+      {
+        "Code": "MPA",
+        "Name": "Movable panel"
+      },
+      {
+        "Code": "PA",
+        "Name": "Pallet"
+      },
+      {
+        "Code": "PBP",
+        "Name": "Identified private box pallet"
+      },
+      {
+        "Code": "PFP",
+        "Name": "Identified private flat pallet"
+      },
+      {
+        "Code": "PL",
+        "Name": "Platform"
+      },
+      {
+        "Code": "PPA",
+        "Name": "Protecting panel"
+      },
+      {
+        "Code": "PST",
+        "Name": "Portable stove"
+      },
+      {
+        "Code": "RF",
+        "Name": "Flat car"
+      },
+      {
+        "Code": "RG",
+        "Name": "Reefer generator"
+      },
+      {
+        "Code": "RGF",
+        "Name": "Ground facility"
+      },
+      {
+        "Code": "RO",
+        "Name": "Rope"
+      },
+      {
+        "Code": "RR",
+        "Name": "Rail car"
+      },
+      {
+        "Code": "SPP",
+        "Name": "Identified special pallet"
+      },
+      {
+        "Code": "STR",
+        "Name": "Strap"
+      },
+      {
+        "Code": "SW",
+        "Name": "Swap body"
+      },
+      {
+        "Code": "TE",
+        "Name": "Trailer"
+      },
+      {
+        "Code": "TP",
+        "Name": "Tarpaulin"
+      },
+      {
+        "Code": "TS",
+        "Name": "Tackles"
+      },
+      {
+        "Code": "TSU",
+        "Name": "Tarpaulin support"
+      },
+      {
+        "Code": "UL",
+        "Name": "ULD (Unit load device)"
+      }
+    ]
+  }
+}

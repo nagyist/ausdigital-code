@@ -1,0 +1,60 @@
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/TransportModeCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "United Nations Economic Commission for Europe",
+      "ListID": "UN/ECE rec 19",
+      "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:TransportModeCode:2",
+      "ListName": "TransportModeCode",
+      "listAgencyID": "UN/ECE",
+      "listVersionID": "2"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "0",
+        "Name": "Transport mode not specified"
+      },
+      {
+        "Code": "1",
+        "Name": "Maritime transport"
+      },
+      {
+        "Code": "2",
+        "Name": "Rail transport"
+      },
+      {
+        "Code": "3",
+        "Name": "Road transport"
+      },
+      {
+        "Code": "4",
+        "Name": "Air transport"
+      },
+      {
+        "Code": "5",
+        "Name": "Mail"
+      },
+      {
+        "Code": "6",
+        "Name": "Multimodal transport"
+      },
+      {
+        "Code": "7",
+        "Name": "Fixed transport installations"
+      },
+      {
+        "Code": "8",
+        "Name": "Inland water transport"
+      },
+      {
+        "Code": "9",
+        "Name": "Transport mode not applicable"
+      }
+    ]
+  }
+}

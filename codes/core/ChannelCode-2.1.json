@@ -1,0 +1,207 @@
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/ChannelCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "United Nations Economic Commission for Europe",
+      "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:CommunicationMeansTypeCode:D10B",
+      "ListName": "ChannelCode",
+      "listAgencyID": "UN/ECE",
+      "listVersionID": "D10B"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "AA",
+        "Name": "Circuit switching"
+      },
+      {
+        "Code": "AB",
+        "Name": "SITA"
+      },
+      {
+        "Code": "AC",
+        "Name": "ARINC"
+      },
+      {
+        "Code": "AD",
+        "Name": "AT&T mailbox"
+      },
+      {
+        "Code": "AE",
+        "Name": "Peripheral device"
+      },
+      {
+        "Code": "AF",
+        "Name": "U.S. Defense Switched Network"
+      },
+      {
+        "Code": "AG",
+        "Name": "U.S. federal telecommunications system"
+      },
+      {
+        "Code": "AH",
+        "Name": "World Wide Web"
+      },
+      {
+        "Code": "AI",
+        "Name": "International calling country code"
+      },
+      {
+        "Code": "AJ",
+        "Name": "Alternate telephone"
+      },
+      {
+        "Code": "AK",
+        "Name": "Videotex number"
+      },
+      {
+        "Code": "AL",
+        "Name": "Cellular phone"
+      },
+      {
+        "Code": "AM",
+        "Name": "International telephone direct line"
+      },
+      {
+        "Code": "AN",
+        "Name": "O.F.T.P. (ODETTE File Transfer Protocol)"
+      },
+      {
+        "Code": "AO",
+        "Name": "Uniform Resource Location (URL)"
+      },
+      {
+        "Code": "AP",
+        "Name": "Very High Frequency (VHF) radio telephone"
+      },
+      {
+        "Code": "AQ",
+        "Name": "X.400 address for mail text"
+      },
+      {
+        "Code": "AR",
+        "Name": "AS1 address"
+      },
+      {
+        "Code": "AS",
+        "Name": "AS2 address"
+      },
+      {
+        "Code": "AT",
+        "Name": "AS3 address"
+      },
+      {
+        "Code": "AU",
+        "Name": "File Transfer Protocol"
+      },
+      {
+        "Code": "AV",
+        "Name": "Inmarsat call number"
+      },
+      {
+        "Code": "AW",
+        "Name": "Radio communication call sign"
+      },
+      {
+        "Code": "CA",
+        "Name": "Cable address"
+      },
+      {
+        "Code": "EI",
+        "Name": "EDI transmission"
+      },
+      {
+        "Code": "EM",
+        "Name": "Electronic mail"
+      },
+      {
+        "Code": "EX",
+        "Name": "Extension"
+      },
+      {
+        "Code": "FT",
+        "Name": "File transfer access method"
+      },
+      {
+        "Code": "FX",
+        "Name": "Telefax"
+      },
+      {
+        "Code": "GM",
+        "Name": "GEIS (General Electric Information Service) mailbox"
+      },
+      {
+        "Code": "IE",
+        "Name": "IBM information exchange"
+      },
+      {
+        "Code": "IM",
+        "Name": "Internal mail"
+      },
+      {
+        "Code": "MA",
+        "Name": "Mail"
+      },
+      {
+        "Code": "PB",
+        "Name": "Postbox number"
+      },
+      {
+        "Code": "PS",
+        "Name": "Packet switching"
+      },
+      {
+        "Code": "SW",
+        "Name": "S.W.I.F.T."
+      },
+      {
+        "Code": "TE",
+        "Name": "Telephone"
+      },
+      {
+        "Code": "TG",
+        "Name": "Telegraph"
+      },
+      {
+        "Code": "TL",
+        "Name": "Telex"
+      },
+      {
+        "Code": "TM",
+        "Name": "Telemail"
+      },
+      {
+        "Code": "TT",
+        "Name": "Teletext"
+      },
+      {
+        "Code": "TX",
+        "Name": "TWX"
+      },
+      {
+        "Code": "XF",
+        "Name": "X.400 address"
+      },
+      {
+        "Code": "XG",
+        "Name": "Pager"
+      },
+      {
+        "Code": "XH",
+        "Name": "International telephone switchboard"
+      },
+      {
+        "Code": "XI",
+        "Name": "National telephone direct line"
+      },
+      {
+        "Code": "XJ",
+        "Name": "National telephone switchboard"
+      }
+    ]
+  }
+}
