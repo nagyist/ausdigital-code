@@ -58,6 +58,7 @@ The {Codes} object array contains the list of actual codes and proerties.  The p
     * "Active" : In current use
     * "Deprecated" : still valid but should not be used in new implementations - will return a warning if used.
     * "Obsolete" : was historically valid but must not be used any longer - will return an error if used.
+  * The code object MAY have any number of additional property terms.
 
 ## Standard code lists
 
