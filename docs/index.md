@@ -87,7 +87,6 @@ This specification introduces an additional type of code list that is a referenc
 The code lists are managed in the **[identifiers repository](https://github.com/ausdigital/code-lists/tree/master/codes/identifiers)** and a sample is shown below.
 
 ```
-{
   "CodeList": {
     "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/identifiers/PartyIdentifiers-dbc.01.json",
     "SchemeIdentification": {
@@ -102,28 +101,17 @@ The code lists are managed in the **[identifiers repository](https://github.com/
       {
         "Code": "ABN",
         "Name": "IAustralian Business Number",
-        "schemeID":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151",
-        "schemeName":"ABN",
-        "schemeAgencyID":"ato.gov.au",
-        "schemeAgencyName":"Australian Taxation Office",
-        "schemeVersionID":"1.0",
-        "schemeDataURI":"http://abr.business.gov.au/abrxmlsearchRPC/Forms/SearchByABNv201408.aspx",
-        "schemeURI":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151",
+        "SchemeIdentification":{
+          "schemeID":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151",
+          "schemeName":"ABN",
+          "schemeAgencyID":"ato.gov.au",
+          "schemeAgencyName":"Australian Taxation Office",
+          "schemeVersionID":"1.0",
+          "schemeDataURI":"http://abr.business.gov.au/abrxmlsearchRPC/Forms/SearchByABNv201408.aspx",
+          "schemeURI":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151"
+        },
       },
       {
-        "Code":"DUNS",
-        "Name": "Dun and Bradstreeet Number",
-        "schemeID":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:060",
-        "schemeName":"DUNS",
-        "schemeAgencyID":"dnb.com",
-        "schemeAgencyName":"Dun and Bradstreet",
-        "schemeVersionID":"1.0",
-        "schemeDataURI":"http://www.dnb.com.au/express/",
-        "schemeURI":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:060",
-      },
-      {
-        "Code": "GLN",
-        "Name": "GS1 Global Location Number",
         "etc":" "
       },
     ]
