@@ -60,15 +60,15 @@ The {Codes} object array contains the list of actual codes and proerties.  The p
     * "Obsolete" : was historically valid but must not be used any longer - will return an error if used.
   * The code object MAY have any number of additional property terms.
 
-## Standard code lists
+## UBL core code lists
 
-**[https://github.com/ausdigital/code-lists/tree/master/codes/core](https://github.com/ausdigital/code-lists/tree/master/codes/core)**
+**[UBL core code lists repository](https://github.com/ausdigital/code-lists/tree/master/codes/core)**
 
 All the code lists in the core directory are simply JSON representations of the corresponding UBL code list which itself is usually based on an ISO or UN/ECE code list.
 
 ## Context specific lists
 
-**[https://github.com/ausdigital/code-lists/tree/master/codes/contexts](https://github.com/ausdigital/code-lists/tree/master/codes/contexts)**
+**[DBC context specific code lists repository](https://github.com/ausdigital/code-lists/tree/master/codes/contexts)**
 
 Code lists often need to be restricted or extended for specific business contexts.  For example, in the Australian context, it may be useful to remove most of the European specific payment means codes from the standard UBL code list and to add a code for BPAY.  
   
@@ -82,9 +82,9 @@ To create a context specific code list, clone this repository, create the new co
 
 ## Identifier Scheme Lists
 
-This specification introduces an additional type of code list that is a reference list of identifier schemes.  The purpose of these lists is to deliver consistency in the UBL representation of identifier schemes like the ABN as a Party identification.  The code lists also support lossless transformation between simple JSON elements like "ABN":"34132141612" and the full CCTS compliant UBL XML representation. 
+**[identifier scheme code lists repository](https://github.com/ausdigital/code-lists/tree/master/codes/identifiers)** 
 
-The code lists are managed in the **[identifiers repository](https://github.com/ausdigital/code-lists/tree/master/codes/identifiers)** and a sample is shown below.
+This specification introduces an additional type of code list that is a reference list of identifier schemes.  The purpose of these lists is to deliver consistency in the UBL representation of identifier schemes like the ABN as a Party identification.  The code lists also support lossless transformation between simple JSON elements like "ABN":"34132141612" and the full CCTS compliant UBL XML representation by including the CCTS Scheme identification information with each scheme code. 
 
 ```
   "CodeList": {
