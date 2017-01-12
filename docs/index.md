@@ -80,6 +80,57 @@ Code lists often need to be restricted or extended for specific business context
   
 To create a context specific code list, clone this repository, create the new code list, notify the working group via the slack channel, and issue a pull request.
 
+## Identifier Scheme Lists
+
+This specification introduces an additional type of code list that is a reference list of identifier schemes.  The purpose of these lists is to deliver consistency in the UBL representation of identifier schemes like the ABN as a Party identification.  The code lists also support lossless transformation between simple JSON elements like "ABN":"34132141612" and the full CCTS compliant UBL XML representation. 
+
+The code lists are managed in the **[identifiers repository](https://github.com/ausdigital/code-lists/tree/master/codes/identifiers)** and a sample is shown below.
+
+```
+{
+  "CodeList": {
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/identifiers/PartyIdentifiers-dbc.01.json",
+    "SchemeIdentification": {
+      "listAgencyName": "Digital Business COuncil",
+      "ListID": "PartyID",
+      "listSchemeURI": "urn:codes.digitalbusinesscouncil.com.au:partyIdentifiers:ver1.0",
+      "ListName": "Party Identifier Schemes",
+      "listAgencyID": "Uigitalbusinesscouncil.com.au",
+      "listVersionID": "1.0"
+    },
+    "Codes": [
+      {
+        "Code": "ABN",
+        "Name": "IAustralian Business Number",
+        "schemeID":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151",
+        "schemeName":"ABN",
+        "schemeAgencyID":"ato.gov.au",
+        "schemeAgencyName":"Australian Taxation Office",
+        "schemeVersionID":"1.0",
+        "schemeDataURI":"http://abr.business.gov.au/abrxmlsearchRPC/Forms/SearchByABNv201408.aspx",
+        "schemeURI":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:0151",
+      },
+      {
+        "Code":"DUNS",
+        "Name": "Dun and Bradstreeet Number",
+        "schemeID":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:060",
+        "schemeName":"DUNS",
+        "schemeAgencyID":"dnb.com",
+        "schemeAgencyName":"Dun and Bradstreet",
+        "schemeVersionID":"1.0",
+        "schemeDataURI":"http://www.dnb.com.au/express/",
+        "schemeURI":"urn:oasis:names:tc:ebcore:partyid-type:iso6523:060",
+      },
+      {
+        "Code": "GLN",
+        "Name": "GS1 Global Location Number",
+        "etc":" "
+      },
+    ]
+  }
+}
+```
+
 ## Validation API behaviour
 
 The document validation API behaviour is designed to allow codes used within messages to be validated against a context specific code list where appropriate but to default to the standard code list where a restricted version is not defined for a given process.  The [validation API](https://github.com/ausdigital/ubl-json/blob/master/docs/ValidationAPI.md) SHALL
