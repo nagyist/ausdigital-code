@@ -1,6 +1,6 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/identifiers/PartyIdentifiers-dbc.01.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/identifiers/PartyIdentifiers-dbc.01.json",
     "SchemeIdentification": {
       "listAgencyName": "Digital Business COuncil",
       "ListID": "PartyID",

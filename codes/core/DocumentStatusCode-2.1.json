@@ -1,6 +1,6 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/DocumentStatusCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/DocumentStatusCode-2.1.json",
   "SchemeIdentification": {
     "listAgencyName": "OASIS Universal Business Language",
     "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:DocumentStatusCode-2.1",

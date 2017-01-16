@@ -19,7 +19,7 @@ The JSON representation for standard coe lists is as defined below.
 ```
 {
    "CodeList":{
-       "ListURI":"https://github.com/ausdigital/code-lists/blob/master/codes/contexts/PaymentMeansCode-context01.json",
+       "ListURI":"https://github.com/ausdigital/ausdigital-code/blob/master/codes/contexts/PaymentMeansCode-context01.json",
        "SchemeIdentification":{
           "listSchemeURI":"urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D10B",
           "ListID":"UNECE-4461",
@@ -41,7 +41,7 @@ The JSON representation for standard coe lists is as defined below.
 
  * The "ListURI" MUST resolve to the web resource that is the the code list JSON file.  For Ausdigital framework codes the path will always be to the /codes folder in this repository as in the example above.
  * The "listSchemeURI" is a canonical identifier issued by the code list management agency.  In the example above that is the UN/ECE.
- * The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when [mapping documents](https://github.com/ausdigital/ubl-json/blob/master/docs/TransformationAPI.md) from JSON to UBL XML.
+ * The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when [mapping documents](https://github.com/ausdigital/ausdigital-json/blob/master/docs/TransformationAPI.md) from JSON to UBL XML.
  * The "UsageContext" element is an array of process identifiers that represent the rule base a specific UBL implementation such as the DBC e-invoicing framework.  This element carries the same values as:
     * The "ProcessIdentifier" element in a DCP service metadata record.
     * The "customizationID" element in a UBL instance document.  
@@ -64,13 +64,13 @@ The {Codes} object array contains the list of actual codes and proerties.  The p
 
 ## UBL core code lists
 
-**[UBL core code lists repository](https://github.com/ausdigital/code-lists/tree/master/codes/core)**
+**[UBL core code lists repository](https://github.com/ausdigital/ausdigital-code/tree/master/codes/core)**
 
 All the code lists in the core directory are simply JSON representations of the corresponding UBL code list which itself is usually based on an ISO or UN/ECE code list.
 
 ## Context specific lists
 
-**[DBC context specific code lists repository](https://github.com/ausdigital/code-lists/tree/master/codes/contexts)**
+**[DBC context specific code lists repository](https://github.com/ausdigital/ausdigital-code/tree/master/codes/contexts)**
 
 Code lists often need to be restricted or extended for specific business contexts.  For example, in the Australian context, it may be useful to remove most of the European specific payment means codes from the standard UBL code list and to add a code for BPAY.  
   
@@ -84,13 +84,13 @@ To create a context specific code list, clone this repository, create the new co
 
 ## Identifier Scheme Lists
 
-**[identifier scheme code lists repository](https://github.com/ausdigital/code-lists/tree/master/codes/identifiers)** 
+**[identifier scheme code lists repository](https://github.com/ausdigital/ausdigital-code/tree/master/codes/identifiers)** 
 
 This specification introduces an additional type of code list that is a reference list of identifier schemes.  The purpose of these lists is to deliver consistency in the UBL representation of identifier schemes like the ABN as a Party identification.  The code lists also support lossless transformation between simple JSON elements like "ABN":"34132141612" and the full CCTS compliant UBL XML representation by including the CCTS Scheme identification information with each scheme code. 
 
 ```
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/identifiers/PartyIdentifiers-dbc.01.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/identifiers/PartyIdentifiers-dbc.01.json",
     "SchemeIdentification": {
       "listAgencyName": "Digital Business COuncil",
       "ListID": "PartyID",
@@ -123,11 +123,11 @@ This specification introduces an additional type of code list that is a referenc
 
 ## Validation API behaviour
 
-The document validation API behaviour is designed to allow codes used within messages to be validated against a context specific code list where appropriate but to default to the standard code list where a restricted version is not defined for a given process.  The [validation API](https://github.com/ausdigital/ubl-json/blob/master/docs/ValidationAPI.md) SHALL
+The document validation API behaviour is designed to allow codes used within messages to be validated against a context specific code list where appropriate but to default to the standard code list where a restricted version is not defined for a given process.  The [validation API](https://github.com/ausdigital/ausdigital-json/blob/master/docs/ValidationAPI.md) SHALL
 
  * For each code data type in the document, validate the code against the code list identified by the SchemeURI (eg "urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D10B").
  * If the "customizationID" element is present in the document, then use the context specific code list with a matching identifier in the "ProcessID" array.  Otherwise, use the standard code list.
- * There are serveral error conditions.  The error code and error message are described in the table below and MUST be inserted into the standard error structure defined in the The [validation API](https://github.com/ausdigital/ubl-json/blob/master/docs/ValidationAPI.md) specification.
+ * There are serveral error conditions.  The error code and error message are described in the table below and MUST be inserted into the standard error structure defined in the The [validation API](https://github.com/ausdigital/ausdigital-json/blob/master/docs/ValidationAPI.md) specification.
 
 |Error Code|Error Message|
 |----------|-------------|

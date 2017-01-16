@@ -1,6 +1,6 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/PackagingTypeCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/PackagingTypeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "ListID": "UN/ECE rec 21",
