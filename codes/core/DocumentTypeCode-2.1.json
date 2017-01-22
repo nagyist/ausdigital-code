@@ -63,6 +63,10 @@
         "Name": "Commercial invoice"
       },
       {
+        "Code": "388",
+        "Name": "Tax invoice"
+      },
+      {
         "Code": "389",
         "Name": "Self-billed invoice"
       },
