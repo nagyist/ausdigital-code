@@ -41,7 +41,7 @@ The JSON representation for standard coe lists is as defined below.
 
  * The "ListURI" MUST resolve to the web resource that is the the code list JSON file.  For Ausdigital framework codes the path will always be to the /codes folder in this repository as in the example above.
  * The "listSchemeURI" is a canonical identifier issued by the code list management agency.  In the example above that is the UN/ECE.
- * The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when [mapping documents](https://github.com/ausdigital/ausdigital-json/blob/master/docs/TransformationAPI.md) from JSON to UBL XML.
+ * The "SchemeIdentification" elements map exactly to the CCTS properties for the code list and SHOULD be used to populate attributes when [mapping documents](https://github.com/ausdigital/ausdigital-ubl-json/blob/master/docs/TransformationAPI.md) from JSON to UBL XML.
  * The "UsageContext" element is an array of process identifiers that represent the rule base a specific UBL implementation such as the DBC e-invoicing framework.  This element carries the same values as:
     * The "ProcessIdentifier" element in a DCP service metadata record.
     * The "customizationID" element in a UBL instance document.  
@@ -123,11 +123,11 @@ This specification introduces an additional type of code list that is a referenc
 
 ## Validation API behaviour
 
-The document validation API behaviour is designed to allow codes used within messages to be validated against a context specific code list where appropriate but to default to the standard code list where a restricted version is not defined for a given process.  The [validation API](https://github.com/ausdigital/ausdigital-json/blob/master/docs/ValidationAPI.md) SHALL
+The document validation API behaviour is designed to allow codes used within messages to be validated against a context specific code list where appropriate but to default to the standard code list where a restricted version is not defined for a given process.  The [validation API](https://github.com/ausdigital/ausdigital-ubl-json/blob/master/docs/ValidationAPI.md) SHALL
 
  * For each code data type in the document, validate the code against the code list identified by the SchemeURI (eg "urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D10B").
  * If the "customizationID" element is present in the document, then use the context specific code list with a matching identifier in the "ProcessID" array.  Otherwise, use the standard code list.
- * There are serveral error conditions.  The error code and error message are described in the table below and MUST be inserted into the standard error structure defined in the The [validation API](https://github.com/ausdigital/ausdigital-json/blob/master/docs/ValidationAPI.md) specification.
+ * There are serveral error conditions.  The error code and error message are described in the table below and MUST be inserted into the standard error structure defined in the The [validation API](https://github.com/ausdigital/ausdigital-ubl-json/blob/master/docs/ValidationAPI.md) specification.
 
 |Error Code|Error Message|
 |----------|-------------|
