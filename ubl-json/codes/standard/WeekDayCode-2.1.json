@@ -1,17 +1,12 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/WeekDayCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/WeekDayCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "International Organization for Standardization",
       "listSchemeURI": "urn:iso:8601:WeekDay:codelist:2004",
       "ListName": "WeekDayCode",
       "listAgencyID": "ISO",
       "listVersionID": "2004"
-    },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
     },
     "Codes": [
       {
