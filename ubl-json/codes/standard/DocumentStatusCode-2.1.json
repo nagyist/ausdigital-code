@@ -1,17 +1,12 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/DocumentStatusCode-2.1.json",
-  "SchemeIdentification": {
-    "listAgencyName": "OASIS Universal Business Language",
-    "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:DocumentStatusCode-2.1",
-    "ListName": "DocumentStatusCode",
-    "listAgencyID": "UBL",
-    "listVersionID": "2.1"
-  },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/DocumentStatusCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "OASIS Universal Business Language",
+      "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:DocumentStatusCode-2.1",
+      "ListName": "DocumentStatusCode",
+      "listAgencyID": "UBL",
+      "listVersionID": "2.1"
     },
     "Codes": [
       {

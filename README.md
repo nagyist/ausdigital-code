@@ -1,12 +1,25 @@
-# Code List Management
+# UBL Codes Lists Management Specification
 
 Published at http://ausdigital-code.readthedocs.io/ in support of http://ausdigital.org/
 
-This specification defines a JSON representation for standard code lists (eg the ISO-3166 coutnry code list) and also for context specific subsets and extensions.
-
-The JSON code list representation and standard API definition provides a alternative to the UBL Genericode and Context/Value Association specifications (and the associated XSLT based runtime validation framework) for implementers that prefer a REST/JSON model.
+The Code List Management specification provides a set of standard code lists (eg the ISO-3166 coutnry code list), their extensions and JSON representation for them.
 
 * The [specification](/docs/index.md)
-* [Core code lists](https://github.com/ausdigital/ausdigital-code/tree/master/codes/core) as JSON files
-* DBC [context specific code](https://github.com/ausdigital/ausdigital-code/tree/master/codes/contexts) list restrictions
 
+
+## Genericode Code Lists representation
+
+The UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html). 
+
+The [Standard Code Lists](https://github.com/ausdigital/ausdigital-code/blob/ubl-xml/master/codes/standard)
+
+The [Extended Code Lists](https://github.com/ausdigital/ausdigital-code/blob/ubl-xml/master/codes/extended)
+
+
+## JSON Code Lists representation
+
+The UBL JSON Code List representation provides an alternative to the UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html).
+
+The [UBL JSON Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard)
+
+The [UBL JSON Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/extended)

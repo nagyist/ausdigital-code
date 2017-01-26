@@ -1,6 +1,6 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/CurrencyCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/CurrencyCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "International Organization for Standardization",
       "ListID": "ISO 4217 Alpha",
@@ -8,11 +8,6 @@
       "ListName": "CurrencyCode",
       "listAgencyID": "ISO",
       "listVersionID": "2012-01-12"
-    },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
     },
     "Codes": [
       {

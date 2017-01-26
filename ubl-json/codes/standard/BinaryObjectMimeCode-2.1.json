@@ -1,17 +1,12 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/BinaryObjectMimeCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/BinaryObjectMimeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:IANA:MIMEMediaType:2012-04-16",
       "ListName": "BinaryObjectMimeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "2012-04-16"
-    },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
     },
     "Codes": [
       {

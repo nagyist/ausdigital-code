@@ -1,17 +1,12 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/CountryIdentificationCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/CountryIdentificationCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "International Organization for Standardization",
       "listSchemeURI": "urn:un:unece:uncefact:identifierlist:standard:5:ISO316612A:SecondEdition2006VI-12",
       "ListName": "CountryIdentificationCode",
       "listAgencyID": "ISO",
       "listVersionID": "SecondEdition2006VI-12"
-    },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
     },
     "Codes": [
       {

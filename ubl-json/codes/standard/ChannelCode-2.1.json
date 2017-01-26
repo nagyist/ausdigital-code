@@ -1,17 +1,12 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/ChannelCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/ChannelCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:CommunicationMeansTypeCode:D10B",
       "ListName": "ChannelCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "D10B"
-    },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
     },
     "Codes": [
       {

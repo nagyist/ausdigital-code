@@ -1,6 +1,6 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/codes/core/PackagingTypeCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/PackagingTypeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "ListID": "UN/ECE rec 21",
@@ -8,11 +8,6 @@
       "ListName": "PackagingTypeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "9e"
-    },
-    "UsageContext": {
-      "ProcessID": [
-        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-      ]
     },
     "Codes": [
       {
