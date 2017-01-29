@@ -1,6 +1,6 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/ubl-json/codes/standard/BinaryObjectMimeCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/BinaryObjectMimeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:IANA:MIMEMediaType:2012-04-16",
