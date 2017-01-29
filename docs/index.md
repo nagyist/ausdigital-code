@@ -1,6 +1,6 @@
 **[Back to AusDigital.org](http://ausdigital.org/)**
 
-# UBL Codes Lists Management Specification
+# UBL Syntax Codes Lists Management Specification
 
  * ![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)
  * Editor: Steve Capell
@@ -10,21 +10,21 @@
 
 This specification lists standard code lists (eg the ISO-3166 coutnry code list), their extensions and JSON representation for them.
 
-## Genericode Code Lists representation
+## UBL Syntax 1.0 Code Lists representation
 
-The UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html)
+The UBL Syntax 1.0 Code List is presented in UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html)
 
-The [Standard Code Lists](https://github.com/ausdigital/ausdigital-code/blob/syn-v1/master/codes/standard)
+The [UBL Syntax 1.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/blob/syn-v1/master/codes/standard)
 
-The [Extended Code Lists](https://github.com/ausdigital/ausdigital-code/blob/syn-v1/master/codes/extended)
+The [UBL Syntax 1.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/blob/syn-v1/master/codes/extended)
 
-## JSON Code Lists representation
+## UBL Syntax 2.0 Code Lists representation
 
-The UBL JSON Code List representation provides an alternative to the UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html)
+The UBL Syntax 2.0 Code List representation in JSON format provides an alternative to the UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html)
 
-The [UBL JSON Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard)
+The [UBL Syntax 2.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard)
 
-The [UBL JSON Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/extended)
+The [UBL Syntax 2.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/extended)
 
 
 ## Licence
