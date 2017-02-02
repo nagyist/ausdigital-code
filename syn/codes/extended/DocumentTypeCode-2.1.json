@@ -1,18 +1,18 @@
 {
-  "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/extended/DocumentTypeCode-2.1.json",
-  "SchemeIdentification": {
-    "listAgencyName": "United Nations Economic Commission for Europe",
-    "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:DocumentNameCodeAccounting:D10B",
-    "listName": "DocumentTypeCode",
-    "listAgencyID": "UN/ECE",
-    "listVersionID": "D10B"
-  },
-  "UsageContext": {
-    "ProcessID": [
-      "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
-    ]
-  },
   "CodeList": {
+    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/extended/DocumentTypeCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "United Nations Economic Commission for Europe",
+      "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:DocumentNameCodeAccounting:D10B",
+      "listName": "DocumentTypeCode",
+      "listAgencyID": "UN/ECE",
+      "listVersionID": "D10B"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "urn:resources.digitalbusinesscouncil.com.au:dbc:einvoicing:ver1.0"
+      ]
+    },
     "Codes": [
       {
         "Code": "105",
