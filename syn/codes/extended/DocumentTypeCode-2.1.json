@@ -1,10 +1,10 @@
 {
   "CodeList": {
-    "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/extended/DocumentTypeCode-2.1.json",
+    "ListURI": "https://github.com/ausdigital/code-lists/tree/master/codes/core/\\DocumentTypeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:DocumentNameCodeAccounting:D10B",
-      "listName": "DocumentTypeCode",
+      "ListName": "DocumentTypeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "D10B"
     },
@@ -14,6 +14,14 @@
       ]
     },
     "Codes": [
+      {
+        "Code": "80",
+        "Name": "Debit note related to goods or services"
+      },
+      {
+        "Code": "81",
+        "Name": "Credit note related to goods or services"
+      },
       {
         "Code": "105",
         "Name": "Purchase order"
