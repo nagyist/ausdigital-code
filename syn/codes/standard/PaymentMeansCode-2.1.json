@@ -3,9 +3,9 @@
     "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/PaymentMeansCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
-      "ListID": "UN/ECE 4461",
+      "listID": "UN/ECE 4461",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:PaymentMeansCode:D10B",
-      "ListName": "PaymentMeansCode",
+      "listName": "PaymentMeansCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "D10B"
     },

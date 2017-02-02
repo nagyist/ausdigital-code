@@ -4,7 +4,7 @@
     "SchemeIdentification": {
       "listAgencyName": "OASIS Universal Business Language",
       "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:DocumentStatusCode-2.1",
-      "ListName": "DocumentStatusCode",
+      "listName": "DocumentStatusCode",
       "listAgencyID": "UBL",
       "listVersionID": "2.1"
     },

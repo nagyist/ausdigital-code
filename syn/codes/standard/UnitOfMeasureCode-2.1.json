@@ -3,9 +3,9 @@
     "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/UnitOfMeasureCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
-      "ListID": "UN/ECE rec 20",
+      "listID": "UN/ECE rec 20",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:specification:66411:8e",
-      "ListName": "UnitOfMeasureCode",
+      "listName": "UnitOfMeasureCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "8e"
     },

@@ -4,7 +4,7 @@
     "SchemeIdentification": {
       "listAgencyName": "OASIS Universal Business Language",
       "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:ReceiptAdviceTypeCode-2.1",
-      "ListName": "ReceiptAdviceTypeCode",
+      "listName": "ReceiptAdviceTypeCode",
       "listAgencyID": "UBL",
       "listVersionID": "2.1"
     },

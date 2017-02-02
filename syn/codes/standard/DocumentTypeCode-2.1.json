@@ -4,7 +4,7 @@
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:DocumentNameCodeAccounting:D10B",
-      "ListName": "DocumentTypeCode",
+      "listName": "DocumentTypeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "D10B"
     },

@@ -4,7 +4,7 @@
     "SchemeIdentification": {
       "listAgencyName": "International Organization for Standardization",
       "listSchemeURI": "urn:iso:8601:WeekDay:codelist:2004",
-      "ListName": "WeekDayCode",
+      "listName": "WeekDayCode",
       "listAgencyID": "ISO",
       "listVersionID": "2004"
     },

@@ -3,9 +3,9 @@
     "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/AllowanceChargeReasonCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
-      "ListID": "UN/ECE 3155",
+      "listID": "UN/ECE 3155",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:AllowanceChargeReasonCode:D10B",
-      "ListName": "AllowanceChargeReasonCode",
+      "listName": "AllowanceChargeReasonCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "D10B"
     },

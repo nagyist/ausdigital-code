@@ -3,9 +3,9 @@
     "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/TransportEquipmentTypeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
-      "ListID": "UN/ECE 8053",
+      "listID": "UN/ECE 8053",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:TransportEquipmentCategoryCode:D10B",
-      "ListName": "TransportEquipmentTypeCode",
+      "listName": "TransportEquipmentTypeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "D10B"
     },

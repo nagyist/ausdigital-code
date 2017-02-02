@@ -3,9 +3,9 @@
     "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/TransportModeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
-      "ListID": "UN/ECE rec 19",
+      "listID": "UN/ECE rec 19",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:TransportModeCode:2",
-      "ListName": "TransportModeCode",
+      "listName": "TransportModeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "2"
     },

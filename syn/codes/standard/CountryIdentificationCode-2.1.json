@@ -4,7 +4,7 @@
     "SchemeIdentification": {
       "listAgencyName": "International Organization for Standardization",
       "listSchemeURI": "urn:un:unece:uncefact:identifierlist:standard:5:ISO316612A:SecondEdition2006VI-12",
-      "ListName": "CountryIdentificationCode",
+      "listName": "CountryIdentificationCode",
       "listAgencyID": "ISO",
       "listVersionID": "SecondEdition2006VI-12"
     },

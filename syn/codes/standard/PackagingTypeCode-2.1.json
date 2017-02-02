@@ -3,9 +3,9 @@
     "ListURI": "https://github.com/ausdigital/ausdigital-code/tree/master/syn/codes/standard/PackagingTypeCode-2.1.json",
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
-      "ListID": "UN/ECE rec 21",
+      "listID": "UN/ECE rec 21",
       "listSchemeURI": "urn:oasis:names:specification:ubl:codelist:gc:PackagingTypeCode-2.1",
-      "ListName": "PackagingTypeCode",
+      "listName": "PackagingTypeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "9e"
     },

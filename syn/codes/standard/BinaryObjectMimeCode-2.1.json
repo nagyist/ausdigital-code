@@ -4,7 +4,7 @@
     "SchemeIdentification": {
       "listAgencyName": "United Nations Economic Commission for Europe",
       "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:IANA:MIMEMediaType:2012-04-16",
-      "ListName": "BinaryObjectMimeCode",
+      "listName": "BinaryObjectMimeCode",
       "listAgencyID": "UN/ECE",
       "listVersionID": "2012-04-16"
     },
