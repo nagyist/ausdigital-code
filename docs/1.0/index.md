@@ -1,7 +1,4 @@
-**[Back to AusDigital.org](http://ausdigital.org/)**
-
-# UBL Syntax Codes Lists Management Specification
-
+ * Spec ID: ausdigital.org/code/1.0
  * ![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)
  * Editor: Steve Capell
  * Contributors: 
