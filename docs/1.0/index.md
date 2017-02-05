@@ -72,14 +72,14 @@ in this document are to be interpreted as described in RFC 2119.
 
 The UBL Syntax 1.0 Code List is presented in UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html)
 
-The [UBL Syntax 1.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/1.0/codes/standard)
+The [UBL Syntax 1.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/1.0/standard)
 
-The [UBL Syntax 1.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/1.0/codes/extended)
+The [UBL Syntax 1.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/1.0/extended)
 
 ## UBL Syntax 2.0 Code Lists representation
 
 The UBL Syntax 2.0 Code List representation in JSON format provides an alternative to the UBL [Genericode](https://docs.oasis-open.org/codelist/cs-genericode-1.0/doc/oasis-code-list-representation-genericode.html)
 
-The [UBL Syntax 2.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/2.0/codes/standard)
+The [UBL Syntax 2.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/2.0/standard)
 
-The [UBL Syntax 2.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/2.0/codes/standard)
+The [UBL Syntax 2.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/2.0/standard)
