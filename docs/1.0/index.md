@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This specification lists standard code lists (eg the ISO-3166 coutnry code list), their extensions and JSON representation for them.
+This specification lists standard code lists (eg the ISO-3166 country code list), their extensions and JSON representation for them.
 
 ## Goals
 
@@ -20,7 +20,7 @@ These are achieved by:
 
 ## Status
 
-This spec is an early draft for consuiltation.
+This spec is an early draft for consultation.
 
 This specification aims to support the Australian Digital Business Council
 [eInvoicing initiative](http://ausdigital.org), and is under active
