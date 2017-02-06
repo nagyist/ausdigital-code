@@ -83,3 +83,7 @@ The UBL Syntax 2.0 Code List representation in JSON format provides an alternati
 The [UBL Syntax 2.0 Standard Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/2.0/standard)
 
 The [UBL Syntax 2.0 Extended Code Lists](https://github.com/ausdigital/ausdigital-code/tree/master/resources/ausdigital-syn/2.0/standard)
+
+# Related Material
+
+ * [GitHub issues](https://github.com/ausdigital/ausdigital-code/issues/) for collaborating on the development of the CODE Specification.
