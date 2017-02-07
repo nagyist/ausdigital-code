@@ -1,9 +1,10 @@
- * Spec ID: ausdigital.org/ausdigital-code/1.0
- * ![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)
- * Editor: [Steven Capell](mailto:steven.capell@gosource.com.au)
- * Contributors: 
-
-# AusDigital Code Lists Management (CODE) 1.0 Specification
+---
+title: "AusDigital Code Lists Management (CODE) 1.0 Specification"
+specID: "ausdigital-code/1"
+status: "![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)"
+editors: "[Steven Capell](mailto:steven.capell@gosource.com.au)"
+contributors: 
+---
 
 ## Introduction
 
@@ -34,7 +35,7 @@ Comments and feedback are encouraged and welcome. Pull requests with improvement
 Phrase | Definition
 ------------ | -------------
 ausdigital-code/1 | This specification.
-ausdigital-bill/1 | Version 1 of the AusDigital [Bill Semantics](http://ausdigital.org/code-lists) specification.
+ausdigital-bill/1 | Version 1 of the AusDigital [BILL](http://ausdigital.org/ausdigital-bill) specification.
 ausdigital-syn/1 | Version 1 of the AusDigital [UBL Syntax(SYN)](http://ausdigital.org/syn) specification.
 ausdigital-syn/2 | Version 2 of the AusDigital [UBL Syntax(SYN)](http://ausdigital.org/syn) specification.
 
