@@ -1,0 +1,43 @@
+{
+  "CodeList": {
+    "ListURI": "https://raw.githubusercontent.com/ausdigital/ausdigital-code/master/resources/ausdigital-syn/2.0/extended/ResponseTypeCode-2.1.json",
+    "SchemeIdentification": {
+      "listAgencyName": "United Nations Economic Commission for Europe",
+      "listSchemeURI": "urn:un:unece:uncefact:codelist:standard:UNECE:ResponseTypeCode:D10B",
+      "ListName": "ResponseTypeCode",
+      "listAgencyID": "UN/ECE",
+      "listVersionID": "D10B"
+    },
+    "UsageContext": {
+      "ProcessID": [
+        "ausdigital.org:bill-taxreceipt-v1",
+        "ausdigital.org:bill-rcti-v1",
+        "ausdigital.org:bill-debitnote-v1",
+        "ausdigital.org:bill-adjustment-v1",
+        "ausdigital.org:bill-creditnote-v1"
+      ]
+    },
+    "Codes": [
+      {
+        "Code": "AB",
+        "Name": "Acknowledged. Message acknowledgement."
+      },
+      {
+        "Code": "RE",
+        "Name": "Rejected."
+      },
+      {
+        "Code": "UT",
+        "Name": "Invalid. An acknowledgment is sent because an error was identified in the received message."
+      },
+      {
+        "Code": "AP",
+        "Name": "Approved. Indication that the referenced offer or transaction (e.g., cargo booking or quotation request) has been accepted."
+      },
+      {
+        "Code": "DI",
+        "Name": "Disputed."
+      }
+    ]
+  }
+}
